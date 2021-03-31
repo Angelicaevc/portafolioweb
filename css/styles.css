@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo{
+    color:rgb(223, 35, 76);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+    padding-bottom: -50px;
+    border-bottom: 1px solid #ccc;
+}
+header{
+    height: 100vh;
+    background-image: linear-gradient(120deg, hsla(222, 98%, 82%, 0.5) 0%, hsla(358, 87%, 73%, 0.5) 100%),url(../img/cabecera.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
+}
+nav{
+    text-align:right;
+    position:fixed;
+    top: 30px;
+    right: 30px;
+}
+
+nav > a{
+    color: #0c0c0c;
+    font-size: 25px;
+    font-weight:  300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    text-decoration:underline;
+}
+header .textos-header{
+    display:flex;
+    height: 550px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.textos-header h1{
+    font-size: 89px;
+    color: rgb(133, 11, 182);
+    border-bottom: 2px solid rgb(126, 3, 163);
+}
+.textos-header h2{
+    font-size: 60px;
+    font-weight: 300;
+    color: rgb(133, 11, 182);
+}
+.contenedor-perfil{
+    display: flex;
+    justify-content:space-evenly;
+
+}
+.textos{
+    display:flex;
+    height: 550px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.textos h3{
+    font-size: 25pt;
+    color:#642a73;
+    text-align: center;
+}
+.textos p{
+    width: 48%;
+    padding: 25px 0px 30px 15px;
+    font-size: 15pt;
+    font-weight: 300;
+    text-align: justify;
+    flex-direction: column;
+}
+.contenedor-perfil img{
+    width: 40%;
+    height: 500px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.contenedor-proyecto{
+    display: flex;
+    justify-content:space-evenly;
+}
+.contenedor-proyecto img{
+    width: 40%;
+    height: 500px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.proyecto.contenido-textos{
+    width: 48%;
+}
+.contenido-textos a{
+    font-size: 18pt;
+    margin-top: 15px;
+    margin-bottom: 7px;
+}
+.contenido-textos a span{
+    background: #642a73;
+    color: white;
+    border-radius: 30%;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    box-shadow: 0 0 6px 0 rgba(0, 0,0, 0.5);
+}
+.contenido-textos p{
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer{
+    background:rgb(12, 12, 12);
+    padding: 30px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+.final{
+    text-align: center;
+    font-size: 20px;
+    margin: 10px 0 0 0;
+    color: rgb(255, 241, 241);
+}
